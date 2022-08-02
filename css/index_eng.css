@@ -1,0 +1,136 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+    a{text-decoration : none;}
+    address{font-style:normal;}
+
+
+    *{margin:0; padding:0; box-sizing:border-box;}
+    a{text-decoration : none;}
+    address{font-style:normal;}
+
+
+    #about03 .about03_area .icon_area ul li p {
+        margin: 0 auto;
+        width:80%;
+    }
+    .ab_all .ab_txt{
+        width:50%;
+    }
+    #about .ab_all {
+        justify-content: space-between !important;
+    }
+
+    .ab_all .ab_txt p {
+        width: 100%;
+        line-height: 2.5;
+    }
+
+    #about {
+        padding: 120px 0;
+    }
+    .ab_img{
+        width: 45%;
+    }
+
+    /*데탑*/
+@media screen and (max-width:1440px) {
+
+
+  
+  }
+  
+  
+  
+  /*노트북*/
+  @media screen and (max-width:1024px) {
+  
+    .ab_all .ab_txt {
+        width: 100%;
+    }
+
+    .ab_img {
+        width: 100%;
+    }
+
+    .ab_all .ab_txt p {
+        width: 80%;
+        text-align: center;
+        padding: 20px 0;
+        margin: 0 auto;
+    }
+    
+    #blockchain {
+        width: 100%;
+        background: url(../img/ab2_bg.jpg) no-repeat top;
+        padding: 100px 0;
+    }
+
+    .ab2 .ab2_txt p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+  }
+  
+  /*아이패드 (768px)*/
+  @media screen and (max-width:991px) {
+
+    #about03 .about03_area .icon_area img {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    #about03 .about03_area .icon_area {
+        height:90%
+    }
+
+    .ab_all .ab_txt p {
+        width: 100%;
+    }
+
+  }
+  
+  
+  
+  /*모바일*/
+  
+  @media screen and (max-width:767px) {
+
+    #about03 .about03_area .icon_area img {
+        width: 100%;
+    }
+
+    .ab2 .ab2_txt p {
+        width: 100%;
+    }
+
+  }
+  
+  
+  /*모바일2*/
+  
+  
+  @media screen and (max-width:576px) {}
+  
+  
+  
+  /*모바일3 갤럭시*/
+  
+  @media screen and (max-width:425px) {
+
+    #home .main_box {
+        height: 55%;
+    }
+
+    #about03 .about03_area .icon_area {
+        justify-content: flex-end;
+    }
+
+    #about03 .about03_area .icon_area ul {
+        margin-top: 30px;
+    }
+  }
+  
+  /*모바일4 아이폰*/
+  @media screen and (max-width:375px) {
+
+  }

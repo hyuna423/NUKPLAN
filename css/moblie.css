@@ -1,0 +1,580 @@
+/*데탑*/
+@media screen and (max-width:1440px) {
+  .main_video video {
+    height: 100%;
+    width: auto;
+  }
+
+  .ab_txt {
+    margin-right: 10px;
+  }
+
+  .ab_all .ab_txt p {
+    font-size: 14px;
+  }
+
+
+
+  #about03 {
+    width: 100%;
+    height: 85vh;
+  }
+
+  #coin .coin_area .graph_box .graph_area {
+    width: 47%;
+  }
+
+  #coin .coin_area .graph_box .graph_list {
+    width: 40%;
+  }
+
+  #coin::after {
+    width: 79%;
+    right: 8%;
+  }
+
+  #roadmap {
+    padding: 110px 0;
+  }
+
+}
+
+
+
+/*노트북*/
+@media screen and (max-width:1024px) {
+
+  #home .main_box {
+    width: 65%;
+    height: 45%;
+    padding: 50px;
+  }
+
+  .main_video video {
+    left: -300px;
+  }
+
+  #about .ab_all {
+    display: block;
+    text-align: center;
+  }
+
+  .ab_txt {
+    margin-bottom: 40px;
+  }
+
+  .ab_all .ab_txt p {
+    font-size: 18px;
+  }
+
+  .ab2_img img {
+    max-width: 90%;
+  }
+
+
+
+  #about03 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #about03 .about03_area {
+    padding: 10%;
+  }
+
+  #about03 .about03_area h3 {
+    text-align: center;
+  }
+
+  #about03 .about03_area .icon_area {
+    flex-direction: column-reverse;
+  }
+
+  #about03 .about03_area .icon_area img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  #about03 .about03_area .icon_area ul {
+    width: 100%;
+    padding-top: 0;
+    justify-content: space-evenly
+  }
+
+  #about03 .about03_area .icon_area ul li {
+    text-align: center;
+    width: 50%;
+    padding: 0 50px;
+    vertical-align: middle;
+
+  }
+
+  #coin .coin_area .graph_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #coin::after {
+    width: 89%;
+    right: 8%;
+    transform: skew(15deg);
+  }
+
+  #coin .coin_area .graph_box .graph_area {
+    width: 70%;
+    text-align: center;
+  }
+
+  #coin .coin_area .graph_box .graph_area ul.graph {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #coin .coin_area .graph_box .graph_list {
+    width: 60%;
+    margin-left: 0;
+  }
+
+
+  #roadmap {
+    background: url(../img/rdmap_bg.png) no-repeat center center;
+    background-size: cover;
+  }
+
+  .rdmap_wrap>.rdmap_img {
+    margin: 50px auto 0;
+  }
+
+  .contact_left {
+    margin-top: 10%;
+  }
+
+  .cont_left_contents li {
+    margin-bottom: 10%;
+  }
+
+  .cont_left_contents li span img {
+    max-width: 8%;
+  }
+
+  .contact_right {
+    width: 43%;
+  }
+
+
+}
+
+
+
+/*아이패드 (768px)*/
+@media screen and (max-width:991px) {
+
+  header .hd_all {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .pc_wrap {
+    display: none;
+  }
+
+  .hd_all .mob_butt {
+    display: block;
+    float: right;
+  }
+
+  #home .main_box {
+    width: 80%;
+    height: 50%;
+    padding: 50px;
+  }
+
+  .main_video video {
+    left: -425px;
+  }
+
+  .ab_all .ab_txt p {
+    font-size: 17px;
+  }
+
+  .ab_all .ab_txt p br {
+    display: none;
+  }
+
+  .ab2_img img {
+    max-width: 100%;
+  }
+
+  #about03 {
+    width: 100%;
+    height: 130vh;
+  }
+
+  #about03 .about03_area .icon_area img {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  #about03 .about03_area .icon_area ul li {
+    padding: 0 0px;
+  }
+
+  #about03 .about03_area .icon_area ul li img {
+    max-width: 40%;
+  }
+
+  #coin::after {
+    width: 89%;
+    right: 1%;
+    transform: skew(10deg);
+  }
+
+  #coin .coin_area .graph_box .graph_area {
+    width: 100%;
+  }
+
+  #coin .coin_area .graph_box .graph_list {
+    width: 90%;
+  }
+
+  .rdmap_wrap>.rdmap_img {
+    width: 100%;
+  }
+
+
+
+  /*contact*/
+
+  .cont_left_contents li {
+    margin-bottom: 30%;
+  }
+
+  .cont_left_contents li h4 {
+    font-size: 1.1em;
+  }
+
+
+  .contact_right {
+    width: 52%;
+  }
+
+  /*footer*/
+
+  .f_logo {
+    margin-right: -3%;
+  }
+
+  .f_logo img {
+    max-width: 60%;
+  }
+
+  .w_paper_k a,
+  .w_paper_e a {
+    font-size: 0.9em;
+  }
+
+}
+
+
+
+/*모바일*/
+
+@media screen and (max-width:767px) {
+
+  .ab2_txt p span .mb_br {
+    display: block;
+  }
+
+  #about03 {
+    height: 110vh;
+  }
+
+
+  .rdmap_wrap>.rdmap_img {
+    width: 90%;
+
+  }
+
+  .rdmap_img {
+    display: none;
+  }
+
+  .rdmap_img_mb {
+    display: block;
+    width: 100%;
+  }
+
+  .rdmap_img_mb img {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /*contact*/
+
+  .contact_left {
+    margin-left: -10%;
+  }
+
+
+
+  .contact_right {
+    width: 65%;
+    margin-right: -10%;
+  }
+
+  .contact_right h5 {
+    font-size: 1em;
+  }
+
+  /*footer*/
+  #footer {
+    height: 50%;
+    padding: 5% 5% 0;
+  }
+
+  .f_logo {
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .f_logo img {
+    max-width: 90%;
+  }
+
+  .w_paper_k {
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+
+  .w_paper_k,
+  .w_paper_e {
+    display: block;
+  }
+
+  .w_paper_k a,
+  .w_paper_e a {
+    font-size: 1em;
+  }
+
+  .sns {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+}
+
+
+/*모바일2*/
+
+
+@media screen and (max-width:576px) {
+
+  .rdmap_wrap>.rdmap_img {
+    margin: 30px auto 0;
+  }
+
+  .contact_wrap {
+    display: block;
+  }
+
+
+  /*contact*/
+
+
+  .contact_left {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .cont_left_contents li span img {
+    max-width: 13%;
+  }
+
+  .adress_img {
+    margin-left: 3.5%;
+  }
+
+  .contact_right {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+
+  /*footer*/
+
+  .f_logo img {
+    max-width: 25%;
+  }
+
+  .w_paper_k span img,
+  .w_paper_e span img {
+    max-width: 10%;
+  }
+
+  .sns span a img {
+    max-width: 10%;
+  }
+
+}
+
+
+
+/*모바일3 갤럭시*/
+
+@media screen and (max-width:425px) {
+
+
+  h3 {
+    font-size: 2.2em;
+  }
+
+  #home .main_box {
+    width: 90%;
+    height: 43%;
+    padding: 50px;
+  }
+
+  .main_txt h2 {
+    font-size: 3em;
+    color: rgba(99, 236, 234, 1);
+  }
+
+  .main_txt p {
+    font-size: 1.2em;
+  }
+
+  .main_txt span {
+    font-size: 16px;
+  }
+
+  .main_txt span br {
+    display: none;
+  }
+
+  .main_txt .main_bt a {
+    width: 45%;
+    padding: 10px 0;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  .ab_all .ab_txt p {
+    font-size: 15px;
+  }
+
+  .ab2 .ab2_txt p {
+    font-size: 13.5px;
+  }
+
+
+
+  #about03 {
+    height: 100vh;
+  }
+
+  #about03 .about03_area {
+    height: 90%;
+  }
+
+  #coin .coin_area .coin_txt p {
+    padding: 0 45px;
+    font-size: 0.8rem;
+  }
+
+  #coin .coin_area .graph_box .graph_area img {
+    margin-top: 20px;
+    max-width: 80%;
+  }
+
+  #about03 .about03_area .icon_area ul li p {
+    font-size: .7rem;
+  }
+
+  #coin .coin_area .coin_txt p {
+    padding: 0 45px;
+  }
+
+  #coin .coin_area .graph_box .graph_area ul.graph {
+    flex-wrap: wrap;
+  }
+
+  #coin .coin_area .graph_box .graph_area ul.graph li {
+    margin-right: 0;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  #coin .coin_area .graph_box .graph_area ul.graph li::after {
+    right: 0;
+  }
+
+  #coin .coin_area .graph_box .graph_area ul.graph li:nth-child(2)::after {
+    display: none;
+  }
+
+  #coin .coin_area .graph_box .graph_list ul li span {
+    width: 20px;
+    height: 20px;
+  }
+
+  #coin .coin_area .graph_box .graph_list ul li {
+    font-size: .8rem;
+  }
+
+  #coin::after {
+    width: 100%;
+    right: 0%;
+    transform: skew(5deg);
+  }
+
+
+}
+
+
+
+
+/*모바일4 아이폰*/
+@media screen and (max-width:375px) {
+
+  #home .main_box {
+    width: 90%;
+    height: 35%;
+    padding: 30px;
+  }
+
+  .main_txt p {
+    font-size: 1em;
+  }
+
+  .main_txt span {
+    font-size: 14px;
+  }
+
+  .main_txt .main_bt a {
+    width: 45%;
+    padding: 10px 0;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .ab_all .ab_txt p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .ab2 .ab2_txt p {
+    font-size: 12px;
+  }
+
+  #coin .coin_area .coin_txt p {
+    padding: 0 65px;
+  }
+
+  #about03 .about03_area .icon_area ul li p {
+    font-size: 0.5rem;
+  }
+}
