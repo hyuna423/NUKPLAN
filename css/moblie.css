@@ -260,6 +260,13 @@
     width: 52%;
   }
 
+  .cont_left_contents li p {
+    width: 100%;
+  }
+
+
+
+
   /*footer*/
 
   .f_logo {
@@ -328,6 +335,15 @@
     font-size: 1em;
   }
 
+  .contact_left {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .cont_left_contents li {
+    margin-bottom: 15%;
+  }
+
   /*footer*/
   #footer {
     height: 50%;
@@ -391,7 +407,7 @@
   }
 
   .cont_left_contents li span img {
-    max-width: 13%;
+    max-width: 7%;
   }
 
   .adress_img {
