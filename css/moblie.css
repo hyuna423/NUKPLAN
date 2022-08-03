@@ -188,8 +188,8 @@
   #home .main_box {
     width: 80%;
     height: 50%;
-    padding: 50px;
-  }
+    padding: 77px 0;
+}
 
   .main_video video {
     left: -425px;
@@ -451,7 +451,7 @@
   #home .main_box {
     width: 90%;
     height: 43%;
-    padding: 50px;
+    padding: 65px 30px;
   }
 
   .main_txt h2 {
