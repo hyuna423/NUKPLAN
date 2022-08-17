@@ -344,6 +344,10 @@
     margin-bottom: 15%;
   }
 
+  .adre{
+    padding: 0 8% 0 0;
+  }
+
   /*footer*/
   #footer {
     height: 50%;
@@ -379,6 +383,16 @@
     width: 100%;
     float: none;
     text-align: center;
+  }
+  
+/*카톡추가*/
+.kakao_wrap{
+  width: 30%;
+  display: inline-block;
+}
+
+  .kakao{
+    max-width: 100%;
   }
 
 }
@@ -434,6 +448,26 @@
   .sns span a img {
     max-width: 10%;
   }
+
+  .sns span{
+    width: 50%;
+  }
+
+  .adre{
+    padding: 0;
+  }
+
+  
+  /*카톡추가*/
+
+  .kakao_wrap{
+    width: 30% !important;
+  }
+  
+    .kakao{
+      max-width: 50% !important;
+    }
+
 
 }
 
@@ -546,6 +580,7 @@
     right: 0%;
     transform: skew(5deg);
   }
+
 
 
 }
